@@ -1,0 +1,43 @@
+body
+{
+  background-image: url('../imagens/fundo.jpg');
+}
+
+#titulo
+{
+  font-size: 40px;
+  padding-top: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: sans-serif;
+  margin-left: 50px;
+  color: black;
+}
+
+.menu
+{
+	position: absolute;
+	left: 3%;
+	border-radius: 20px;
+	width: 15%;
+	top: 3%;
+	height: 42%;
+	background-color: white;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+
+
+.divDoForm
+{
+    margin: 0 auto;
+    margin-top : 20px;
+    margin-left: 10%;
+    height: 90%;
+    background-color: rgba(255,255,255, 0.85);
+    background-attachment: fixed;
+    border: 3px solid #f1f1f1;
+    border-radius: 20px;
+    width: 80%; 
+}
