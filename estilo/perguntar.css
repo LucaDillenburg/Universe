@@ -5,8 +5,8 @@ body
 
 .first
 {
-	border-top-right-radius: 20px;
-	border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
 
 #titulo
@@ -23,15 +23,15 @@ body
 
 .menu
 {
-	position: absolute;
-	left: 3%;
-	border-radius: 20px;
-	width: 15%;
-	top: 3%;
-	height: 42%;
-	background-color: white;
-	border-bottom-right-radius: 0px;
-	border-bottom-left-radius: 0px;
+  position: absolute;
+  left: 3%;
+  border-radius: 20px;
+  width: 15%;
+  top: 3%;
+  height: 42%;
+  background-color: white;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 
@@ -82,12 +82,12 @@ textarea
 #selecionador, option
 {
   margin-left: 10px;
-  width: 300px;   
+  width: 70%;   
   height: 30px;
   font-family: verdana;
   font-size: 15px;
   font-style: italic;  
-  margin-bottom: 20px;     
+  margin-bottom: 20px;   
 }
 
 #assuntoNovo

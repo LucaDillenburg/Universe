@@ -1,0 +1,15 @@
+﻿O QUE EU FARIA DIFERENTE
+ - Mais responsivo (inclusive para celular)
+ - Deixar opções para adicionar matéria, fazer pergunta, ver a própria página mas quando clicar em submit abrir o cadastro/login no site. Quando acabar o login/cadastro abrir aquela página com as informações preenchidas
+ - Cores e layout mais bonito
+ - Não tão fácil de adicionar matérias (Show Modal)
+ - Pesquisa mais eficaz:
+    > Pesquisar palavra por palavra
+    > O que está no título vem antes
+    > Sugestão de palavras
+    > Adicionar árvore das perguntas e respostas no banco (ver caderno de Engenharia de Sistemas-Cotuca)
+ - Maneira de recuperar a senha usando o email
+ - Receber emails com respostas as perguntas ou notificações no celular
+
+ - CSS mais organizado e menos porco (talvez colocar até algumas coisas do CSS e outras funcionalidades em JQuery!!)
+ - Classe Visual com mais coisas de banco e soh recebendo o codPerg e codResp

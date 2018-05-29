@@ -17,29 +17,29 @@ class Visual
 		if(strtoupper($usuario)==strtoupper($nomeUsuario))
 		{
 			if($maisCurtida)
-				echo "<table border='5px' style='color:blue'>";
+				echo "<table border='5px' style='color:blue' id='x'>";
 			else
-				echo "<table border='1px' style='color:blue'>";
+				echo "<table border='1px' style='color:blue' id='x'>";
 			$qts = $this->pergunta->qtsResp($cod);
-			echo "<tr class='deCima'><th class='assunto' colspan=9> $assunto </th>  <th colspan=1 style='color: blue'> $qts </th></tr>";
+			echo "<tr class='deCima'><th class='assunto' id='td3' colspan=9> $assunto </th>  <th colspan=1 style='color: blue' id='td4'> $qts </th></tr>";
 		}else
 		{
 			if($maisCurtida)
-				echo "<table border='5px'>";
+				echo "<table border='5px' id='x'>";
 			else
-				echo "<table border='1px'>";
+				echo "<table border='1px' id='x'>";
 			echo "<tr><th colspan=10> $assunto </th></tr>";
 		}
-		echo "<tr><td colspan=3> <a class='nome' href='".$siteHome."Pesquisar/Usuario/feedUsuario.php?nomeUsuario=$usuario'> ";
+		echo "<tr><td colspan=3 id='td1'> <a class='nome' href='".$siteHome."Pesquisar/Usuario/feedUsuario.php?nomeUsuario=$usuario'> ";
 		if($motivoUs)
 			echo "<b>$usuario</b>";
 		else
 			echo "$usuario";
 		echo " </a> </td>";
 		
-		echo "<td colspan=7 rowspan=2> $explicacao </td></tr>";
+		echo "<td colspan=7 rowspan=2 id='td2'> $explicacao </td></tr>";
 
-		echo "<tr><td colspan=3> <a class='nome' href='".$siteHome."Pesquisar/Materia/feedMateria.php?codMateria=$codMateria'> ";
+		echo "<tr><td colspan=3 id='td1'> <a class='nome' href='".$siteHome."Pesquisar/Materia/feedMateria.php?codMateria=$codMateria'> ";
 		if($motivoMat)
 			echo "<b>$materia</b>";
 		else
@@ -79,8 +79,8 @@ class Visual
 			else
 				echo "<table border='1px'>";
 
-		echo "<tr><td colspan=10 rowspan=2 class='aResposta'> $resposta </td><td colspan=3 class='data'> $data </td> </tr>";
-		echo "<tr><td colspan=3 id='nome' class='nome'> <a class='nome' href='".$siteHome."Pesquisar/Usuario/feedUsuario.php?nomeUsuario=$nomeRespondeu'> $nomeRespondeu  </a> </td></tr>"; 
+		echo "<tr><td colspan=10 rowspan=2 class='aResposta' id='td2'> $resposta </td><td colspan=3 class='data' id='td1'> $data </td> </tr>";
+		echo "<tr><td colspan=3 id='nome' class='nome' id='td1'> <a class='nome' href='".$siteHome."Pesquisar/Usuario/feedUsuario.php?nomeUsuario=$nomeRespondeu'> $nomeRespondeu  </a> </td></tr>"; 
 		echo "</table>";
 
 		// usuário é quem perguntou

@@ -29,7 +29,7 @@ if(!isSet($_SESSION['usuario']))
 	<h2 id="titulo">Seja bem-vindo a <u><b>UNIVERSE!</b></u></h2>
 	<br>
 
-	<div id='cssvmenu' class="esq">
+	<div id='cssvmenuind' class="esq">
 	<ul>
 	<li id="main" class='active has-sub'><a class="first"><span>Pesquisar</span></a>
       <ul>
@@ -45,20 +45,20 @@ if(!isSet($_SESSION['usuario']))
    <?php
 	if($_SESSION['usuario']!="")
 	{
-		echo "<div id='cssvmenu' class='direita'><ul>";
+		echo "<div id='cssvmenuind' class='direita'><ul>";
 		echo "<li id ='main' class='last'><a class='first' href='Pesquisar/Usuario/feedUsuario.php?nomeUsuario=$nomeUsuario'><span>Minha Página</span></a></li></ul></div>";
 		
-		echo "<div id='cssvmenu' class='esq'><ul><li id = 'main' class='last'><a class='first' href='Feed/index.php'><span>Feed</span></a></li></ul></div>";
+		echo "<div id='cssvmenuind' class='esq'><ul><li id = 'main' class='last'><a class='first' href='Feed/index.php'><span>Feed</span></a></li></ul></div>";
 
-		echo "<div id='cssvmenu' class='direita'><ul><li id = 'main' class='last'><a class='first' href='Perguntar/index.php'><span>Nova Pergunta</span></a></li></ul></div>";
+		echo "<div id='cssvmenuind' class='direita'><ul><li id = 'main' class='last'><a class='first' href='Perguntar/index.php'><span>Nova Pergunta</span></a></li></ul></div>";
 		
-		echo "<br><br><div class='meio' id='cssvmenu'><ul>";
+		echo "<br><br><div class='meio' id='cssvmenuind'><ul>";
 		echo "<li id='main' class='last'><a class='first' href='login/login.php'><span>SAIR</span></a></li>"; 
 		echo "</ul></div>";
 
 	}else
 	{?>
-	<br><div class='meio' id='cssvmenu'><ul>
+	<br><div class='meio' id='cssvmenuind'><ul>
    	<li id="main" class='last'><a class="first" href='login/login.php'><span>Login</span></a></li></ul></div>
 	<?php
 	}
