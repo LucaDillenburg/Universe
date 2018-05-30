@@ -47,7 +47,7 @@ else
 		
 		echo "<li id = 'main' class='last'><a href='../Feed/index.php'><span>Feed</span></a></li>";
 
-		echo "<li id = 'main' class='last'><a href='index.php'><span>Nova Pergunta</span></a></li>";
+		echo "<li id = 'main' class='last'><a href='index.php'><span>Nova<br>Pergunta</span></a></li>";
   	 	//echo "<div id='cssvmenu'><ul>";
 		echo "<li id='main' class='last'><a href='../login/login.php'><span>SAIR</span></a></li>"; 
 
