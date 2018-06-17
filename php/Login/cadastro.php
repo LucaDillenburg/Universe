@@ -110,6 +110,7 @@
 
     <button type="submit" class="btnCerto">Cadastrar</button>
 
+    <h4 class="semLogin">Já tem uma conta? <a href="login.php">Clique aqui</a>!</h4>
   </div>
 
 	<?php
